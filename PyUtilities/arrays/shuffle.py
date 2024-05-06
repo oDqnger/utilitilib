@@ -5,10 +5,10 @@ def shuffle(array: list) -> list:
     Shuffles a list
 
     Args:
-        array (list)
+        array (list): the list to be shuffled
 
     Returns:
-        list
+        list: the shuffled list
     """
     new_array = []
     indexes_of_array = [x for x in range(0, len(array))]
