@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-with open("/README.md", "r", encoding="utf-8") as f:
+with open("./README.md", "r", encoding="utf-8") as f:
     long_desc_md = f.read()   
 
 setup (
@@ -16,12 +16,4 @@ setup (
     requires=[],
     keywords=["python", "helper", "functions", "utility", "utilities", "algorithms", "data types"],
     license="MIT License",
-    classifiers=[
-        "Development Status :: 1 - Planning"
-        "Programming Language :: Python :: 3",
-        "Intended Audience :: Developers",
-        "Operating System :: Microsoft :: Windows",
-        "Operating System :: MacOS",
-        "Operating System :: Unix",
-    ],
 )
