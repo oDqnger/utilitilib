@@ -22,7 +22,7 @@ print(remove_duplicate([1,1,2,2,3,4,4,4,4,4]))
 To uninstall this package, do:
 
 ```bash
-pip3 uninstall -y algorithms
+pip3 uninstall -y pyutilities
 ```
 
 ## API Reference
