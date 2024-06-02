@@ -44,4 +44,3 @@ pip3 uninstall -y pyutilities
     - [format_num](/PyUtilities/strings/format_num.py)
     - [replace_one](/PyUtilities/strings/replace_one.py)
     - [to_title_case](/PyUtilities/strings/to_title_case.py)
-
