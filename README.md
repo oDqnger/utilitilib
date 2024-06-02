@@ -28,7 +28,7 @@ pip3 uninstall -y algorithms
 ## API Reference
 
 
-- [arrays][a relative link](./arrays)
+- [arrays](/arrays/)
     - [chunk_list](https://github.com/odqnger/pyutilities/tree/main/pyutilities/arrays/chunk_list.py)
     - [remove_all](https://github.com/oDqnger/PyUtilities/tree/main/PyUtilities/arrays/remove_all.py)
     - [remove_duplicate](https://github.com/oDqnger/PyUtilities/tree/main/PyUtilities/arrays/remove_duplicate.py)
