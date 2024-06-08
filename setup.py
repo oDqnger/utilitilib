@@ -4,7 +4,7 @@ with open("./README.md", "r", encoding="utf-8") as f:
     long_desc_md = f.read()   
 
 setup (
-    name="PyUtilities",
+    name="utilitilib",
     version="0.0.1",
     author="Diman Gal Henege",
     author_email="dimanchansilu@gmail.com",
@@ -16,4 +16,7 @@ setup (
     requires=[],
     keywords=["python", "helper", "functions", "utility", "utilities", "algorithms", "data types"],
     license="MIT License",
+    classifiers=[
+        "Development Status :: 4 - Beta",
+    ]
 )
