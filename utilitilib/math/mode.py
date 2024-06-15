@@ -1,4 +1,4 @@
-from ..arrays.remove_duplicate import remove_duplicate
+from utilitilib.arrays.remove_duplicate import remove_duplicate
 
 def mode(arr: list) -> any:
     """Returns the mode from a given list

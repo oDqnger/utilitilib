@@ -1,4 +1,4 @@
-# PyUtilities
+# utilitilib
 
 > A python utility package that provides commonly used functionalities or helper methods that you can use to improve productivity or efficiency in your work flow.
 
@@ -13,7 +13,7 @@ pip3 install pyutilities
 To test if this works, select a category from down below and import its' module. For instance:
 
 ```python
-from pyutilities import arrays.remove_duplicate
+from utilitilib import arrays.remove_duplicate
 
 print(remove_duplicate([1,1,2,2,3,4,4,4,4,4]))
 ```
@@ -22,7 +22,7 @@ print(remove_duplicate([1,1,2,2,3,4,4,4,4,4]))
 To uninstall this package, do:
 
 ```bash
-pip3 uninstall -y pyutilities
+pip3 uninstall -y utilitilib
 ```
 
 ## API Reference
@@ -44,3 +44,10 @@ pip3 uninstall -y pyutilities
     - [format_num](/utilitilib/strings/format_num.py)
     - [replace_one](/utilitilib/strings/replace_one.py)
     - [to_title_case](/utilitilib/strings/to_title_case.py)
+
+# make a seperate tests folder - DONE
+# see if all methods and code work - DONE
+# check documentation
+# add documentation
+# add more code
+# compile and push

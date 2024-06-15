@@ -1,4 +1,4 @@
-from pyutilities.strings.replace_one import replace_one
+from utilitilib.strings.replace_one import replace_one
 
 def format_num(num: int, custom_comma=",", custom_negative="-", custom_decimal=".") -> str:
     """Makes a number more readable by adding commas or by shortening it.
