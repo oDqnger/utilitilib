@@ -7,16 +7,21 @@
 To install this package, do:
 
 ```bash
-pip3 install pyutilities
+pip3 install utilitilib
 ```
 
-To test if this works, select a category from down below and import its' module. For instance:
+## Example Usage
+
+Here's an example of how you would use utilitilib:
 
 ```python
 from utilitilib import arrays.remove_duplicate
+# this imports the remove_duplicate module from the arrays subpackage.
 
-print(remove_duplicate([1,1,2,2,3,4,4,4,4,4]))
+if __name__ == "__main__":
+    print(remove_duplicate([1,1,1,2,2,2,3,3,3,4,4]))
 ```
+
 ## Uninstall
 
 To uninstall this package, do:
@@ -25,29 +30,39 @@ To uninstall this package, do:
 pip3 uninstall -y utilitilib
 ```
 
+## Contributing
+
+If you would like to contribute, please check out the [CONTRIBUTING.md](/CONTRIBUTING.md) file
+
+Thank you for your interest in contributing.
+
 ## API Reference
 
+- [arrays](/utilitilib/arrays/README.md)
+  - [chunk_list](/utilitilib/arrays/chunk_list.py)
+  - [remove_all](/utilitilib/arrays/remove_all.py)
+  - [remove_duplicate](/utilitilib/arrays/remove_duplicate.py)
+  - [shuffle](/utilitilib/arrays/shuffle.py)
+  - [unique_value_counter](/utilitilib/arrays/unique_value_counter.py)
+- [math](/utilitilib/math/README.md)
+  - [mean](/utilitilib/math/mean.py)
+  - [median](/utilitilib/math/median.py)
+  - [range](/utilitilib/math/range.py)
+- [strings](/utilitilib/strings/README.md)
+  - [are_anagrams](/utilitilib/strings/are_anagrams.py)
+  - [censor_string](/utilitilib/strings/censor_string.py)
+  - [format_num](/utilitilib/strings/format_num.py)
+  - [replace_one](/utilitilib/strings/replace_one.py)
+  - [to_title_case](/utilitilib/strings/to_title_case.py)
 
-- [arrays](/utilitilib/arrays)
-    - [chunk_list](/utilitilib/arrays/chunk_list.py)
-    - [remove_all](/utilitilib/arrays/remove_all.py)
-    - [remove_duplicate](/utilitilib/arrays/remove_duplicate.py)
-    - [shuffle](/utilitilib/arrays/shuffle.py)
-    - [unique_value_counter](/utilitilib/arrays/unique_value_counter.py)
-- [math](/utilitilib/math)
-    - [mean](/utilitilib/math/mean.py)
-    - [median](/utilitilib/math/median.py)
-    - [range](/utilitilib/math/range.py)
-- [strings](/utilitilib/strings)
-    - [are_anagrams](/utilitilib/strings/are_anagrams.py)
-    - [censor_string](/utilitilib/strings/censor_string.py)
-    - [format_num](/utilitilib/strings/format_num.py)
-    - [replace_one](/utilitilib/strings/replace_one.py)
-    - [to_title_case](/utilitilib/strings/to_title_case.py)
+## Licence
 
-# make a seperate tests folder - DONE
-# see if all methods and code work - DONE
-# check documentation
-# add documentation
-# add more code
-# compile and push
+Released under the MIT licence
+
+
+make a seperate tests folder - DONE
+see if all methods and code work - DONE
+check documentation - DONE
+add documentation - DONE
+add more code
+compile and push
