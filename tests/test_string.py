@@ -6,6 +6,7 @@ from utilitilib.strings import (
     format_num,
     replace_one,
     to_title_case,
+    remove_whitespace,
 )
 
 class TestStrings(unittest.TestCase):
@@ -96,6 +97,12 @@ class TestStrings(unittest.TestCase):
             ["", ""]
         ]
 
+        self.remove_whitespace_test_cases = [
+            ["Hello World", "HelloWorld"],
+            ["I am an idiot   fr        ", "Iamanidiotfr"],
+            ["   ", ""]
+        ]
+
     def test_anagram_valid_cases(self):
         for x in self.anagram_test_cases:
             self.assertEqual(are_anagrams.are_anagrams(x[0][0], x[0][1]), x[1])
@@ -134,6 +141,10 @@ class TestStrings(unittest.TestCase):
     def test_to_title_case_valid_cases(self):
         for x in self.to_title_case_test_cases:
             self.assertEqual(to_title_case.to_title_case(x[0]), x[1])
+
+    def test_remove_whitespace_valid_cases(self):
+        for x in self.remove_whitespace_test_cases:
+            self.assertEqual(remove_whitespace.remove_whitespace(x[0]), x[1])
 
 if __name__ == "__main__":
     unittest.main()

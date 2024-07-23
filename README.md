@@ -54,6 +54,8 @@ Thank you for your interest in contributing.
   - [format_num](/utilitilib/strings/format_num.py)
   - [replace_one](/utilitilib/strings/replace_one.py)
   - [to_title_case](/utilitilib/strings/to_title_case.py)
+- [dateandtime](/utilitilib/dateandtime/README.md)
+  - [days_between_dates](/utilitilib/dateandtime/days_between_dates.py)
 
 ## Licence
 
