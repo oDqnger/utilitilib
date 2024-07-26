@@ -5,7 +5,7 @@ with open("./README.md", "r", encoding="utf-8") as f:
 
 setup (
     name="utilitilib",
-    version="0.0.1",
+    version="0.0.2",
     author="Diman Gal Henege",
     author_email="dimanchansilu@gmail.com",
     description="A python utility package that provides commonly used functionalities or helper methods.",

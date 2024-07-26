@@ -15,11 +15,11 @@ pip3 install utilitilib
 Here's an example of how you would use utilitilib:
 
 ```python
-from utilitilib import arrays.remove_duplicate
+from utilitilib.arrays import remove_duplicate
 # this imports the remove_duplicate module from the arrays subpackage.
 
 if __name__ == "__main__":
-    print(remove_duplicate([1,1,1,2,2,2,3,3,3,4,4]))
+    print(remove_duplicate.remove_duplicate([1,1,1,2,2,2,3,3,3,4,4]))
 ```
 
 ## Uninstall
