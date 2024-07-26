@@ -60,11 +60,3 @@ Thank you for your interest in contributing.
 ## Licence
 
 Released under the MIT licence
-
-
-make a seperate tests folder - DONE
-see if all methods and code work - DONE
-check documentation - DONE
-add documentation - DONE
-add more code
-compile and push
