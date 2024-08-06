@@ -5,13 +5,13 @@ with open("./README.md", "r", encoding="utf-8") as f:
 
 setup (
     name="utilitilib",
-    version="0.0.2",
+    version="0.0.3",
     author="Diman Gal Henege",
     author_email="dimanchansilu@gmail.com",
     description="A python utility package that provides commonly used functionalities or helper methods.",
     long_description=long_desc_md,
     long_description_content_type="text/markdown",
-    url="https://github.com/oDqnger/PyUtilities",
+    url="https://github.com/oDqnger/utilitilib",
     packages=find_packages(),
     requires=[],
     keywords=["python", "helper", "functions", "utility", "utilities", "algorithms", "data types"],
