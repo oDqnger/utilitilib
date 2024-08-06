@@ -1,6 +1,6 @@
-from utilitilib.arrays.remove_duplicate import remove_duplicate
+from utilitilib.arrays.unique_value_counter import unique_value_counter
 
-def mode(arr: list) -> any:
+def mode(arr: list):
     """Returns the mode from a given list
 
     Args:
@@ -9,33 +9,20 @@ def mode(arr: list) -> any:
     Returns:
         any: The mode of that current list
     """
+    dict_of_vals = unique_value_counter(arr)
+    arr_of_mode = []
+    temp_val = 0
 
-    occurences = {}
+    for x,y in dict_of_vals.items():
+        if y > temp_val:
+            if len(arr_of_mode) != 0:
+                arr_of_mode.clear()
+            
+            arr_of_mode.append(x)
+            temp_val = y
+        elif y == temp_val:
+            arr_of_mode.append(x)
+            temp_val = y
 
-    for item in arr:
-        if item in occurences:
-            occurences[item] += 1
-        else:
-            occurences[item] = 1            
-    
-    value = list(occurences.keys())[list(occurences.values()).index(find_all_max(list(occurences.values()))[0])]
-    occ = max(occurences.values())
-    
-    return None if occ == 1 else value
+    return arr_of_mode[0] if len(arr_of_mode) == 1 else arr_of_mode
 
-def find_all_max(arr: list) -> list:
-    max_value = max(arr)
-    val = [max_value]
-    b = False
-    
-    while b == False:
-        try:  
-            arr.remove(max_value)
-            if max(arr) == max_value:
-                val.append(max(arr))
-            else:
-                b = True
-        except:
-            b = True
-    
-    return val

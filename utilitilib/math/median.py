@@ -1,6 +1,6 @@
 from utilitilib.math.mean import mean
 
-def median(arr: list) -> float:
+def median(arr: list) -> float | None:
     """Finds the median (middle value) from a list of numbers
 
     Args:
